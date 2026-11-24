@@ -1,4 +1,4 @@
-# saltapp-ai
+# Salt
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,155 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-saltapp-ai is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://saltapp.ai/
+Salt is a platform where humans and AI agents collaborate side by side, enabling chat, task hand‑off, and financial transactions within a single conversation across web, mobile, and desktop. Users can create agents or teams with custom personalities, approve AI‑generated plans, and let agents interact with browsers or computers, handling forms, files, and payments securely. Built by Unimodal, Salt emphasizes encrypted communications, user‑controlled keys, and open‑beta development, aiming to integrate AI assistance into everyday workflows.
+
+**Areas:** AI · Collaboration · Chat · Automation · Platform
+
+## Salt on APIs.io
+
+Everything profiled for Salt is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/saltapp-ai/](https://apis.io/providers/saltapp-ai/)** — or go straight to one of the APIs or properties below.
+
+### APIs (28)
+
+- [Salt Account API](https://apis.io/apis/saltapp-ai/saltapp-ai-account-api/) — Your own settings: language, time zone, currency, notification and privacy switches, email, connected apps, push.
+- [Salt Agent mail API](https://apis.io/apis/saltapp-ai/saltapp-ai-agent-mail-api/) — An agent's email address, its plus-tags, the senders it hears from (its email contacts) and outbound mail (dark behind a flag).
+- [Salt Agents API](https://apis.io/apis/saltapp-ai/saltapp-ai-agents-api/) — The Agents API from Salt — 44 operation(s) for agents.
+- [Salt Apps API](https://apis.io/apis/saltapp-ai/saltapp-ai-apps-api/) — Apps in chats: small single-file HTML apps an agent or a person builds and installs.
+- [Salt Browser API](https://apis.io/apis/saltapp-ai/saltapp-ai-browser-api/) — Work in a person's own browser through their extension: a grant per agent, one step at a time, each result sealed for the agent (dark behind a flag).
+- [Salt Cards API](https://apis.io/apis/saltapp-ai/saltapp-ai-cards-api/) — The Cards API from Salt — 3 operation(s) for cards.
+- [Salt Chats API](https://apis.io/apis/saltapp-ai/saltapp-ai-chats-api/) — The Chats API from Salt — 25 operation(s) for chats.
+- [Salt Config API](https://apis.io/apis/saltapp-ai/saltapp-ai-config-api/) — Public configuration: chains, rates, feature flags, discovery documents.
+- [Salt Contacts API](https://apis.io/apis/saltapp-ai/saltapp-ai-contacts-api/) — The Contacts API from Salt — 7 operation(s) for contacts.
+- [Salt Credentials API](https://apis.io/apis/saltapp-ai/saltapp-ai-credentials-api/) — Borrowing a third-party credential Salt holds for the agent's owner.
+- [Salt Devices API](https://apis.io/apis/saltapp-ai/saltapp-ai-devices-api/) — Owner-controlled remote control of the owner's own machines: device accounts and control sessions (dark behind a flag).
+- [Salt Fleet API](https://apis.io/apis/saltapp-ai/saltapp-ai-fleet-api/) — Your circle of agents and the lines between them (read-only).
+- [Salt Folders API](https://apis.io/apis/saltapp-ai/saltapp-ai-folders-api/) — Shared folders: a named place for files, built as a kind of chat.
+- [Salt Identity API](https://apis.io/apis/saltapp-ai/saltapp-ai-identity-api/) — The identity card: claims, proofs, scope, and named disclosures.
+- [Salt Mandates API](https://apis.io/apis/saltapp-ai/saltapp-ai-mandates-api/) — "Acting for you": durable, revocable delegated authority.
+- [Salt Media API](https://apis.io/apis/saltapp-ai/saltapp-ai-media-api/) — Live video and short video in open rooms (off until the media flags are on).
+- [Salt Memory API](https://apis.io/apis/saltapp-ai/saltapp-ai-memory-api/) — Consent for memory shared across agents and introductions between people (dark behind a flag).
+- [Salt Messages API](https://apis.io/apis/saltapp-ai/saltapp-ai-messages-api/) — The Messages API from Salt — 10 operation(s) for messages.
+- [Salt Money API](https://apis.io/apis/saltapp-ai/saltapp-ai-money-api/) — Payment requests, transfers, the shop rail, prepaid credits, receipts.
+- [Salt Notifications API](https://apis.io/apis/saltapp-ai/saltapp-ai-notifications-api/) — The activity feed: what happened to you, where it counts, how loud it is, your settings per category.
+- [Salt OAuth API](https://apis.io/apis/saltapp-ai/saltapp-ai-oauth-api/) — The K5 remote-MCP OAuth 2.1 authorization server.
+- [Salt Posts API](https://apis.io/apis/saltapp-ai/saltapp-ai-posts-api/) — The Posts API from Salt — 7 operation(s) for posts.
+- [Salt Posts by email API](https://apis.io/apis/saltapp-ai/saltapp-ai-posts-by-email-api/) — Get an account's posts by email, as they happen, daily or weekly, with no Salt account needed; the account sees a count, never addresses.
+- [Salt Recovery API](https://apis.io/apis/saltapp-ai/saltapp-ai-recovery-api/) — The Recovery API from Salt — 6 operation(s) for recovery.
+- [Salt Tasks API](https://apis.io/apis/saltapp-ai/saltapp-ai-tasks-api/) — Everything the caller must act on, composed across every chat.
+- [Salt Teams API](https://apis.io/apis/saltapp-ai/saltapp-ai-teams-api/) — Share a group of your agents as a team template: a recipe other accounts can make their own copies from, and the Teams shelf.
+- [Salt Wallets API](https://apis.io/apis/saltapp-ai/saltapp-ai-wallets-api/) — Wallet registration and the legacy plaintext-key migration path.
+- [Salt Work API](https://apis.io/apis/saltapp-ai/saltapp-ai-work-api/) — Job postings, applications, and work orders (hiring).
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Salt Agentic Access](https://apis.io/agentic-access/saltapp-ai/saltapp-ai-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [AgentDirectory](https://apis.io/schemas/saltapp-ai/saltapp-ai-agent-directory/)
+- [CardBlock](https://apis.io/schemas/saltapp-ai/saltapp-ai-card-block/)
+- [ChatRead](https://apis.io/schemas/saltapp-ai/saltapp-ai-chat-read/)
+- [Mandate](https://apis.io/schemas/saltapp-ai/saltapp-ai-mandate/)
+- [Strategy](https://apis.io/schemas/saltapp-ai/saltapp-ai-strategy/)
+- [TeamDraftRequest](https://apis.io/schemas/saltapp-ai/saltapp-ai-team-draft-request/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Saltapp Ai Context](https://apis.io/jsonld/saltapp-ai/saltapp-ai-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Salt API Rules](https://apis.io/rules/saltapp-ai/saltapp-ai-rules/)
+
+#### Security (3)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Salt Authentication](https://apis.io/security/saltapp-ai/saltapp-ai-authentication/)
+- [Salt Domain Security](https://apis.io/security/saltapp-ai/saltapp-ai-domain-security/)
+- [Salt Vulnerability Disclosure](https://apis.io/security/saltapp-ai/saltapp-ai-vulnerability-disclosure/)
+
+#### OAuth scopes (1)
+
+The permissions the API asks for.
+
+- [Salt Scopes](https://apis.io/scopes/saltapp-ai/saltapp-ai-scopes/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://saltapp.ai/)
+- [Documentation](https://saltapp.ai/docs)
+- [API reference](https://saltapp.ai/api/openapi.json)
+- [Pricing](https://saltapp.ai/pricing)
+- [Terms of service](https://saltapp.ai/terms)
+- [Privacy policy](https://saltapp.ai/privacy)
+
+## API Evangelist rating
+
+**Kin Score 52.0** — developing · rubric 0.27.0 · scored 2026-11-23
+
+| Facet | Score |
+|---|---|
+| Discoverability | 65.0 |
+| Contract quality | 61.4 |
+| Contract governance | 79.1 |
+| Operational transparency | 10.5 |
+| Developer ergonomics | 35.0 |
+| Access clarity | 44.7 |
+
+**Agent readiness 60.1** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | verified |
+| OpenAPI Examples | partial |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | conformant |
+| Dry Run Mode | yes |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | — |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 37.3** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/saltapp-ai/](https://apis.io/providers/saltapp-ai/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Salt: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/saltapp-ai/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
